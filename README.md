@@ -219,7 +219,7 @@ Curiosity: as the container terminates even before the main container initiates,
 
 #### Logical topology with ports and URLs pointing other containers
 
-![Minikube dashboard](./images/Network-topology.png)
+![Logical topology](./images/Network-topology.png)
 
 #### Useful commands - 
 1. **minikube start**: to start your minikube environment
