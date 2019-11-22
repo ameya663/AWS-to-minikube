@@ -1,5 +1,3 @@
-# AWS-to-minikube
-
 # Setting up minikube Kubernetes, pulling images from a private repository and deploying pods, and using initContainers and volumeMounts.
 
 ### Setting up minikube
