@@ -34,7 +34,7 @@ brew install minikube
 ```bash
 minikube dashboard
 ```
-
+![Minikube dashboard](./images/minikube_dashboard.png)
 ### Pulling images from private repositories (AWS, GCP, DockerHub)
 
 1. Enable ingress
