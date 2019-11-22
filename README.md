@@ -217,6 +217,9 @@ Curiosity: as the container terminates even before the main container initiates,
 #### Stepwise: 
 **@4** initContainer initiates >> **@6** mountPath is created and mounted >> **@5** files are copied from /graph_2019_11_01 to /OSRM and the same time from /OSRM to emptyDir (**@7**) >> initContainer waits 10 seconds before terminating >> **@1** starts-up >> **@3** Volume is mounted and data from emptyDir gets copied >> Now, **@1** has data and the path for the environment variable OSRM_GRAPH.
 
+#### Logical topology with ports and URLs pointing other containers
+
+![Minikube dashboard](./images/Network-topology.png)
 
 #### Useful commands - 
 1. **minikube start**: to start your minikube environment
